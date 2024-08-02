@@ -118,6 +118,45 @@ def __str__(self):
         lower_lines = f'╚═══{"╧═══"*2}{"╩═══"}{"╧═══"*2}{"╩═══"}{"╧═══"*2}╝\n'
         board_string = upper_lines
 
+# Step 10
+
+# Now, you need to go over each row in the sudoku board.
+
+# Enumeration is a convenient way to keep track of both the element and its position on a list. 
+# The enumerate() function is a built-in function in Python that takes an iterable (such as a list, tuple, 
+# or string) and returns an iterator that produces tuples containing indices and corresponding values from 
+# the iterable.
+
+# Initiate a for loop to iterate over each row (line) in the sudoku board (self.board).
+
+# Use enumeration to get both the index (index) and the content (line) of each row.
+
+# The general syntax would be like this:
+
+# for x, y in enumerate(parameter):
+
+        for index, line in enumerate(self.board):
+            pass
+
+# Step 11
+
+# Inside the loop, initialize an empty list row_list to store the elements of a single row in the sudoku board.
+
+        for index, line in enumerate(self.board):
+            row_list = []
+
+# Step 12
+
+# Next, you are going to split each row in three segments, in order to represent the 3x3 squares properly.
+
+# Create a nested for loop to iterate over each segment of the row. 
+# Use square_no and part as the iterating variable and the enumerate() function. For now, leave the enumerate() 
+# call empty.
+
+        for index, line in enumerate(self.board):
+          row_list = []
+          for square_no, part in enumerate():
+              pass
 
 
 
