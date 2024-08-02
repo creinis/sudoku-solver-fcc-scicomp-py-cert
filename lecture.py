@@ -847,3 +847,26 @@ def solve_sudoku(board):
     else:
         print('\nThe provided puzzle is unsolvable.')
 
+# Step 78
+
+# In the end, return your instance of the Board class, which represents the final state of the sudoku board 
+# after attempting to solve it.
+
+def solve_sudoku(board):
+    gameboard = Board(board)
+    print(f'\nPuzzle to solve:\n{gameboard}')
+    if gameboard.solver():
+        print('\nSolved puzzle:')
+        print(gameboard)
+
+    else:
+        print('\nThe provided puzzle is unsolvable.')
+    return gameboard
+
+
+
+
+
+
+
+
