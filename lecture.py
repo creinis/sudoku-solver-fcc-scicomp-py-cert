@@ -399,7 +399,21 @@ def find_empty_cell(self):
             pass
     return None
 
+# Step 36
 
+# Next, you will work on a method that checks if a given number can be inserted into a specified row of 
+# the sudoku board.
+
+# Create a method named valid_in_row. It should take three parameters:
+
+#    self: representing the instance of the class.
+#    row: representing the row index.
+#    num: representing the number to be checked.
+
+# Also, don't forget to add the pass keyword in the function body.
+
+def valid_in_row(self, row, num):
+    pass
 
 
 
