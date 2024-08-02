@@ -788,7 +788,14 @@ def solver(self):
                     self.board[row][col] = 0
             return False
 
+# Step 72
 
+# Outside the class definition, create a function to print and solve the sudoku board.
+
+# Name it solve_sudoku. It should take a single parameter board that is a 2D list.
+
+def solve_sudoku(board):
+    pass
 
 
 
