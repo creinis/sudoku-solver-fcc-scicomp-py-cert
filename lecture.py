@@ -15,6 +15,25 @@
 
 class Board:
 
+# Step 2
+
+# A new instance of a class is created by using the function notation: ClassName(). 
+# The instantiation creates an empty object. 
+# Classes can have methods, which are like local functions for each instance. 
+# Methods are declared as follows:
+
+# class ClassName:
+    def method_name():
+        pass
+
+# The __init__ method is a special method that allows you to instantiate an object to a customized state. 
+# When a class implements an __init__ method, __init__ is automatically called upon instantiation.
+
+# Create an __init__ method inside your Board class.
+
+    def __init__():
+        pass
+
 
 
 
