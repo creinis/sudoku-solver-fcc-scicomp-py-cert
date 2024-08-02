@@ -525,6 +525,17 @@ def valid_in_square(self, row, col, num):
         row_start = (row // 3) * 3
         col_start = (col // 3) * 3
 
+# Step 47
+
+# Create a for loop that starts at row_start and ends just before row_start + 3. 
+# You can use the range() function to generate the sequence. 
+# As an example, if row_start is 3, the loop will iterate over the numbers 3, 4, and 5.
+
+def valid_in_square(self, row, col, num):
+    row_start = (row // 3) * 3
+    col_start=(col // 3) * 3
+    for i in range(row_start, row_start + 3):
+        pass
 
 
 
