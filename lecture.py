@@ -758,6 +758,19 @@ def solver(self):
                     if self.solver():
                         return True
 
+# Step 70
+
+# If self.solver() returns False, this means the guess led to an unsolvable sudoku.
+
+# Outside the innermost if block, undo the guess by setting the cell value back to 0.
+
+                if self.is_valid(next_empty, guess):
+                    row, col = next_empty
+                    self.board[row][col] = guess
+                    if self.solver():
+                        return True
+                    self.board[row][col] = 0
+
 
 
 
