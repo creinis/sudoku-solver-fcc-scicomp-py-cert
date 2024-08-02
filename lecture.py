@@ -807,6 +807,23 @@ def solve_sudoku(board):
 def solve_sudoku(board):
     gameboard = Board(board)
 
+# Step 74
+
+# Now, add another print() call passing gameboard as the argument to print the current state of the sudoku board.
+
+# Add a print call to print the following: f'\nPuzzle to solve:\n{gameboard}'.
+
+# Step 75
+
+# Create an if statement that checks if the solver() method call from the gameboard object returns True.
+
+# Then, add a print() call inside the if block passing the following string: '\nSolved puzzle:'.
+
+def solve_sudoku(board):
+    gameboard = Board(board)
+    print(f'\nPuzzle to solve:\n{gameboard}')
+    if gameboard.solver():
+        print('\nSolved puzzle:')
 
 
 
