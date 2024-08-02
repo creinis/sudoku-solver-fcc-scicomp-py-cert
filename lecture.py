@@ -158,6 +158,17 @@ def __str__(self):
           for square_no, part in enumerate():
               pass
 
+# Step 13
+
+# Now, you need to create the three line segments to pass to the enumerate function.
+
+# Use list slicing to create the three lists of equal length representing the line segment of each 3x3 square 
+# and pass them to the enumerate() call. 
+# Add start = 1 to start the enumeration from 1 instead of 0.
+
+        for index, line in enumerate(self.board):
+            row_list = []
+            for square_no, part in enumerate([line[:3], line[3:6], line[6:]], start = 1):
 
 
 
