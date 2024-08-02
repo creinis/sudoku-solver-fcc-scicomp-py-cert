@@ -207,7 +207,27 @@ def __str__(self):
                 if square_no != 3:
                     row_list.append('║')
 
+# Step 19
 
+# Next, you will create a string representation of the row with spaces between each element.
+
+# For that, outside the innermost for loop body, create a string row. 
+# Assign the following formatted string f'║ {" ".join(row_list)} ║\n' to it to join the elements of row_list 
+# with a space in between.
+
+# Step 20
+
+# When you would pass your input puzzle board, 0 would be used for empty cells.
+
+# For a better visual representation, replace the empty cells in a row with a space using the replace method.
+
+# The replace() method takes two arguments, the first one is the character to be replaced and the second one 
+# is the character to be replaced with.
+
+# After replacing, assign the result to a variable row_empty.
+
+            row = f'║ {" ".join(row_list)} ║\n'
+            row_empty = row.replace('0', ' ')
 
 
 
