@@ -487,6 +487,21 @@ def valid_in_col(self, col, num):
         for row in range(9)
     )
 
+# Step 44
+
+# Next, you will work on a method that checks if a number can be inserted in the 3x3 square.
+
+# Inside the Board class, create a method named valid_in_square.
+
+# It should take four parameters:
+
+#    self: represents the instance of the class.
+#    row: represents the row index.
+#    col: represents the column index.
+#    num: represents the number to be checked.
+
+def valid_in_square(self, row, col, num):
+    pass
 
 
 
