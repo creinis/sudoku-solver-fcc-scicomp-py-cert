@@ -229,5 +229,26 @@ def __str__(self):
             row = f'║ {" ".join(row_list)} ║\n'
             row_empty = row.replace('0', ' ')
 
+# Step 21
+
+# board_string is gradually built up as the loop iterates over each row, creating the full ASCII art 
+# representation of the sudoku board.
+
+# Add the modified row_empty string to the board_string.
+
+            row = f'║ {" ".join(row_list)} ║\n'
+            row_empty = row.replace('0', ' ')
+            board_string += row_empty
+
+
+
+
+
+
+
+
+
+
+
 
 
