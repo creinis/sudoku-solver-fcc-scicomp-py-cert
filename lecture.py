@@ -240,6 +240,14 @@ def __str__(self):
             row_empty = row.replace('0', ' ')
             board_string += row_empty
 
+# Step 22
+
+# Within the outermost for loop, create an if statement that checks if the current row index is less than 8. 
+# This is because the last row of the sudoku board has an index of 8, and you want to handle the last 
+# row differently.
+
+        if index < 8:
+            pass
 
 
 
