@@ -696,6 +696,16 @@ def solver(self):
     else:
         return False
 
+# Step 64
+
+# If still there are empty cells, create a loop in the else block that iterates over numbers from 1 to 9 (inclusive).
+
+def solver(self):
+    if (next_empty := self.find_empty_cell()) is None:
+        return True
+    else:
+        for num in range(1, 10):
+            pass
 
 
 
