@@ -771,7 +771,22 @@ def solver(self):
                         return True
                     self.board[row][col] = 0
 
+# Step 71
 
+# Make your method return False when none of the guesses leads to a solution.
+
+    def solver(self):
+        if (next_empty := self.find_empty_cell()) is None:
+            return True
+        else:
+            for guess in range(1, 10):
+                if self.is_valid(next_empty, guess):
+                    row, col = next_empty
+                    self.board[row][col] = guess
+                    if self.solver():
+                        return True
+                    self.board[row][col] = 0
+            return False
 
 
 
