@@ -283,7 +283,21 @@ def __str__(self):
                 else:
                     board_string += middle_lines
 
+# Step 26
 
+# Now, you need to handle the last row of the entire board.
+
+# lower_lines represents the bottom border of the entire sudoku board.
+
+# Create an else block to append the lower_lines string to board_string when the outer if condition is false.
+
+            if index < 8:
+                if index % 3 == 2:
+                    board_string += f'╠═══{"╪═══"*2}{"╬═══"}{"╪═══"*2}{"╬═══"}{"╪═══"*2}╣\n'
+                else:
+                    board_string += middle_lines
+            else:
+                board_string += lower_lines
 
 
 
