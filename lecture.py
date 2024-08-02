@@ -556,7 +556,24 @@ def valid_in_square(self, row, col, num):
                 if self.board[row_no][col_no] == num:
                     pass
 
+# Step 50
 
+# Inside the if block, return False to indicate that the number cannot be inserted into the square.
+
+# Step 51
+
+# If the number is not present, it can be inserted into the square without violating the rules of sudoku.
+
+# Return True in that case, and pay attention to the indentation.
+
+    def valid_in_square(self, row, col, num):
+        row_start = (row // 3) * 3
+        col_start=(col // 3) * 3
+        for row_no in range(row_start, row_start + 3):
+            for col_no in range(col_start, col_start + 3):
+                if self.board[row_no][col_no] == num:
+                    return False
+        return True
 
 
 
