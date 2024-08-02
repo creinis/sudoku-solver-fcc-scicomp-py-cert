@@ -686,6 +686,16 @@ def solver(self):
     if (next_empty := self.find_empty_cell()) is None:
         return True
 
+# Step 63
+
+# Create an else block to cater the case where there are empty cells and the puzzle is unsolved.
+
+def solver(self):
+    if (next_empty := self.find_empty_cell()) is None:
+        return True
+    else:
+        return False
+
 
 
 
