@@ -646,5 +646,25 @@ def is_valid(self, empty, num):
             [valid_in_row, valid_in_col, valid_in_square]
         )
 
+# Step 59
+
+# Next, you will work on a method that attempts to solve the sudoku in-place, meaning it would modify 
+# the existing sudoku board rather than creating a new one.
+
+# Within the board class, create a method solver that takes one argument(self, representing the instance of 
+# the class).
+
+def solver(self):
+        pass
+
+
+
+
+
+
+
+
+
+
 
 
