@@ -79,7 +79,44 @@ puzzle = [
 def __str__(self):
     pass
 
+# Step 6
 
+# To create the top border of the board, create an upper_lines variable and assign it the 
+# value of f'\n╔═══{"╤═══"*2}{"╦═══"}{"╤═══"*2}{"╦═══"}{"╤═══"*2}╗\n'.
+
+# This string represents the top border of the sudoku board in a visually appealing ASCII art style. 
+# It uses special Unicode characters to draw the borders and intersections.
+
+    def __str__(self):
+        upper_lines = f'\n╔═══{"╤═══"*2}{"╦═══"}{"╤═══"*2}{"╦═══"}{"╤═══"*2}╗\n'
+
+# Step 7
+
+# To create middle borders of the sudoku board, create a middle_lines variable and assign it the value of 
+# f'╟───{"┼───"*2}{"╫───"}{"┼───"*2}{"╫───"}{"┼───"*2}╢\n'.
+
+    def __str__(self):
+        upper_lines = f'\n╔═══{"╤═══"*2}{"╦═══"}{"╤═══"*2}{"╦═══"}{"╤═══"*2}╗\n'
+        middle_lines = f'╟───{"┼───"*2}{"╫───"}{"┼───"*2}{"╫───"}{"┼───"*2}╢\n'
+
+# Step 8
+
+# To create the bottom border of the sudoku board, create a lower_lines variable and assign it the value of 
+# f'╚═══{"╧═══"*2}{"╩═══"}{"╧═══"*2}{"╩═══"}{"╧═══"*2}╝\n'.
+
+        upper_lines = f'\n╔═══{"╤═══"*2}{"╦═══"}{"╤═══"*2}{"╦═══"}{"╤═══"*2}╗\n'
+        middle_lines = f'╟───{"┼───"*2}{"╫───"}{"┼───"*2}{"╫───"}{"┼───"*2}╢\n'
+        lower_lines = f'╚═══{"╧═══"*2}{"╩═══"}{"╧═══"*2}{"╩═══"}{"╧═══"*2}╝\n'
+
+# Step 9
+
+# Initialize a board_string variable with the content of upper_lines. 
+# This will be the starting point for building the entire visual representation of the sudoku board.
+
+        upper_lines = f'\n╔═══{"╤═══"*2}{"╦═══"}{"╤═══"*2}{"╦═══"}{"╤═══"*2}╗\n'
+        middle_lines = f'╟───{"┼───"*2}{"╫───"}{"┼───"*2}{"╫───"}{"┼───"*2}╢\n'
+        lower_lines = f'╚═══{"╧═══"*2}{"╩═══"}{"╧═══"*2}{"╩═══"}{"╧═══"*2}╝\n'
+        board_string = upper_lines
 
 
 
