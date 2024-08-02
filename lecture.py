@@ -260,6 +260,16 @@ def __str__(self):
                 if index % 3 == 2:
                     pass
 
+# Step 24
+
+# If the current row is the last row of a 3x3 square, in order to create a visually appealing border you need 
+# to append a different border string to board_string .
+
+# Inside the if statement, add the following string to the current value of board_string: 
+# f'╠═══{"╪═══"*2}{"╬═══"}{"╪═══"*2}{"╬═══"}{"╪═══"*2}╣\n'.
+
+                if index % 3 == 2:
+                    board_string += f'╠═══{"╪═══"*2}{"╬═══"}{"╪═══"*2}{"╬═══"}{"╪═══"*2}╣\n'
 
 
 
