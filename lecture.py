@@ -34,6 +34,23 @@ class Board:
     def __init__():
         pass
 
+# Step 3
+
+# Add two parameters to the __init__ method, order matters:
+
+#    self: This is a reference to the instance of the class. It is a convention to name this parameter self.
+#    board: The board parameter is expected to be passed when creating an instance of the Board class.
+
+# Step 4
+
+# Inside the __init__ method, assign the value of the board parameter (which is passed when creating an 
+# instance of the Board class) to an instance variable named board using self.board.
+
+# self.board refers to the board attribute of the instance of the class. 
+# It's a variable that belongs to the object created from the Board class.
+
+    def __init__(self, board):
+        self.board = board
 
 
 
