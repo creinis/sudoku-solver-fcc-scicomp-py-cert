@@ -707,7 +707,17 @@ def solver(self):
         for num in range(1, 10):
             pass
 
+# Step 65
 
+# For each number (guess), check if the number is a valid choice for the current empty cell using 
+# self.is_valid(next_empty, guess)
+
+def solver(self):
+    if (next_empty := self.find_empty_cell()) is None:
+        return True
+    else:
+        for guess in range(1, 10):
+            guess = self.is_valid(next_empty, guess)
 
 
 
