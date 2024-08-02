@@ -52,6 +52,32 @@ class Board:
     def __init__(self, board):
         self.board = board
 
+# Step 5
+
+# Now you will move to the actual construction of the board, which is a 9x9 gird.
+
+# The input puzzle would look like this:
+
+puzzle = [
+  [0, 0, 2, 0, 0, 8, 0, 0, 0],
+  [0, 0, 0, 0, 0, 3, 7, 6, 2],
+  [4, 3, 0, 0, 0, 0, 8, 0, 0],
+  [0, 5, 0, 0, 3, 0, 0, 9, 0],
+  [0, 4, 0, 0, 0, 0, 0, 2, 6],
+  [0, 0, 0, 4, 6, 7, 0, 0, 0],
+  [0, 8, 6, 7, 0, 4, 0, 0, 0],
+  [0, 0, 0, 5, 1, 9, 0, 0, 8],
+  [1, 7, 0, 0, 0, 6, 0, 0, 5]
+]
+
+# The resulting grid would look like this:
+
+# Define a method __str__ within the Board class. Also, add the self parameter. 
+# This method is automatically called when you use the str() function on an instance of the class or when 
+# you use print() with the object.
+
+def __str__(self):
+    pass
 
 
 
