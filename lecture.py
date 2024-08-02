@@ -443,6 +443,16 @@ def valid_in_row(self, row, num):
 def valid_in_col(self, col, num):
     pass
 
+# Step 40
+
+# Now, you need to check if a given number is not equal to the number in the specified column of the current row.
+
+# For that, first, iterate over the rows of the 2D list self.board using a for loop in the range 0 to 8. 
+# Use row as the iteration variable.
+
+def valid_in_col(self, col, num):
+    for row in range(9):
+        pass
 
 
 
