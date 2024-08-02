@@ -734,3 +734,18 @@ def solver(self):
             if self.is_valid(next_empty, guess):
                 row, col = next_empty
 
+# Step 67
+
+# Access the cell at the given row and column in the sudoku board, and assign it the value of guess.
+
+            if self.is_valid(next_empty, guess):
+                row, col = next_empty
+                self.board[row][col] = guess
+
+
+
+
+
+
+
+
