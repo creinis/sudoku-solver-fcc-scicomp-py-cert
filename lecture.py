@@ -719,5 +719,18 @@ def solver(self):
         for guess in range(1, 10):
             guess = self.is_valid(next_empty, guess)
 
+# Step 66
 
+# If the guess is valid, the method updates the sudoku board with the guess by assigning guess to the 
+# cell specified by next_empty.
+
+# Unpack the next_empty tuple to row, col.
+
+def solver(self):
+    if (next_empty := self.find_empty_cell()) is None:
+        return True
+    else:
+        for guess in range(1, 10):
+            if self.is_valid(next_empty, guess):
+                row, col = next_empty
 
