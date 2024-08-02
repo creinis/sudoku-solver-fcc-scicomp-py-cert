@@ -825,7 +825,13 @@ def solve_sudoku(board):
     if gameboard.solver():
         print('\nSolved puzzle:')
 
+# Step 76
 
+# Add another print call to print the current state of the board.
+
+    if gameboard.solver():
+        print('\nSolved puzzle:')
+        print(gameboard)
 
 
 
