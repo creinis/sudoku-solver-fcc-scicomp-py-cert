@@ -595,6 +595,14 @@ def is_valid(self, empty, num):
     def is_valid(self, empty, num):
         row, col = empty
 
+# Step 54
+
+# Check if the number is valid for insertion in the specified row by calling self.valid_in_row(row, num) 
+# Assign the result to valid_in_row
+
+    def is_valid(self, empty, num):
+        row, col = empty
+        valid_in_row = self.valid_in_row(row, num)
 
 
 
