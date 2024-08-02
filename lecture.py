@@ -345,6 +345,16 @@ class Board:
     def find_empty_cell(self):
         pass
 
+# Step 29
+
+# Inside the find_empty_cell method, create a for loop and use the enumerate() function to iterate over each row 
+# in the sudoku board.
+
+# Use row for the index of the current row and contents for the elements of the current row.
+
+    def find_empty_cell(self):
+        for row, contents in enumerate(self.board):
+            pass
 
 
 
