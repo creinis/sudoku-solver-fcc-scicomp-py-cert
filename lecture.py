@@ -742,6 +742,21 @@ def solver(self):
                 row, col = next_empty
                 self.board[row][col] = guess
 
+# Step 68
+
+# While staying in the if block, recursively call self.solver() to try to solve the rest of the sudoku.
+
+# Step 69
+
+# If the recursive call to self.solver() returns True, it means the sudoku is solved.
+
+# If the recursive call returns True, return True from the method.
+
+                if self.is_valid(next_empty, guess):
+                    row, col = next_empty
+                    self.board[row][col] = guess
+                    if self.solver():
+                        return True
 
 
 
