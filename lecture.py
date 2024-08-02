@@ -628,7 +628,23 @@ def is_valid(self, empty, num):
         valid_in_col = self.valid_in_col(col, num)
         valid_in_square = self.valid_in_square(row, col, num)
 
+# Step 57
 
+# Insert valid_in_row, valid_in_col, and valid_in_square into a list and pass it to the all() function. 
+# This will verify that all the function calls return True.
+
+# Step 58
+
+# Now, return the result of the all() call.
+
+    def is_valid(self, empty, num):
+        row, col = empty
+        valid_in_row = self.valid_in_row(row, num)
+        valid_in_col = self.valid_in_col(col, num)
+        valid_in_square = self.valid_in_square(row, col, num)
+        return all(
+            [valid_in_row, valid_in_col, valid_in_square]
+        )
 
 
 
