@@ -833,5 +833,17 @@ def solve_sudoku(board):
         print('\nSolved puzzle:')
         print(gameboard)
 
+# Step 77
 
+# Create an else clause and print the following string inside the new else block: 
+# '\nThe provided puzzle is unsolvable.'.
+
+def solve_sudoku(board):
+    gameboard = Board(board)
+    print(f'\nPuzzle to solve:\n{gameboard}')
+    if gameboard.solver():
+        print('\nSolved puzzle:')
+        print(gameboard)
+    else:
+        print('\nThe provided puzzle is unsolvable.')
 
