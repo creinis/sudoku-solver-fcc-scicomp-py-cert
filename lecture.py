@@ -797,5 +797,18 @@ def solver(self):
 def solve_sudoku(board):
     pass
 
+# Step 73
+
+# Inside the solve_sudoku function, create a gameboard variable and assign it an instance of the Board class 
+# passing board as the argument.
+
+# This initializes the sudoku board with the given initial state.
+
+def solve_sudoku(board):
+    gameboard = Board(board)
+
+
+
+
 
 
