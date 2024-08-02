@@ -249,6 +249,16 @@ def __str__(self):
         if index < 8:
             pass
 
+# Step 23
+
+# Now, you need to verify if the row is the last row inside a 3x3 square. 
+# This occurs when index % 3 is equal to 2.
+
+# Inside your existing if block, nest another if to check that condition.
+
+            if index < 8:
+                if index % 3 == 2:
+                    pass
 
 
 
