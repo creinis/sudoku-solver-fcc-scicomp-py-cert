@@ -537,6 +537,19 @@ def valid_in_square(self, row, col, num):
     for i in range(row_start, row_start + 3):
         pass
 
+# Step 48
+
+# Inside the loop created in the previous step, nest another for loop to iterate over a sequence of 
+# three elements starting at col_start. Again, use the range() function to generate the sequence.
+
+        for row_no in range(row_start, row_start + 3):
+            for col_no in range(col_start, col_start + 3):
+                pass
+
+
+
+
+
 
 
 
