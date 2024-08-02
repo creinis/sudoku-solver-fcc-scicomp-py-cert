@@ -415,5 +415,21 @@ def find_empty_cell(self):
 def valid_in_row(self, row, num):
     pass
 
+# Step 38
+
+# If num is not in the row, the expression evaluates to True and it means the number is valid for insertion.
+
+# If num is in the row, the expression evaluates to False and insertion would violate the rules.
+
+# Return the value from the expression you wrote in the previous step, so that the validity of a number 
+# can be checked.
+
+def valid_in_row(self, row, num):
+    return num not in self.board[row]
+
+
+
+
+
 
 
