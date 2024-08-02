@@ -477,6 +477,15 @@ all(
     for row in range(9)
     )
 
+# Step 43
+
+# Return the result of the all() function call.
+
+def valid_in_col(self, col, num):
+    return all(
+        self.board[row][col] != num
+        for row in range(9)
+    )
 
 
 
