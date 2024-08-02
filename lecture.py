@@ -454,6 +454,18 @@ def valid_in_col(self, col, num):
     for row in range(9):
         pass
 
+# Step 41
+
+# For each element in the specified column (col) of the current row (row), check whether the value at 
+# the current position in the 2D list is not equal to the provided num.
+
+def valid_in_col(self, col, num):
+    self.board[row][col] != num
+
+
+
+
+
 
 
 
