@@ -335,6 +335,20 @@ class Board:
                 board_string += lower_lines
         return board_string
 
+# Step 28
+
+# Now you will work on a method that finds the empty cells in the sudoku board. 
+# For that, within the Board class, create a method named find_empty_cell. 
+# It takes self as a parameter, representing the instance of the class. 
+# Include the pass keyword inside the function body.
+
+    def find_empty_cell(self):
+        pass
+
+
+
+
+
 
 
 
