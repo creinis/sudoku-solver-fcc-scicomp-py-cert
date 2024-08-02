@@ -546,7 +546,15 @@ def valid_in_square(self, row, col, num):
             for col_no in range(col_start, col_start + 3):
                 pass
 
+# Step 49
 
+# The next step is to check if the specified number (num) is already present in the current cell of the 3x3 square.
+
+# Inside the inner for loop, create an if statement that checks if the current cell in self.board is equal to num.
+
+            for col_no in range(col_start, col_start + 3):
+                if self.board[row_no][col_no] == num:
+                    pass
 
 
 
