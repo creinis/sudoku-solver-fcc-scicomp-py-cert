@@ -670,7 +670,13 @@ def solver(self):
 def solver(self):
     (next_empty := self.find_empty_cell())
 
+# Step 61
 
+# Place the condition in an if statement and check if it is None
+
+def solver(self):
+    if (next_empty := self.find_empty_cell()) is None:
+        pass
 
 
 
