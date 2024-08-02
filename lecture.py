@@ -604,7 +604,16 @@ def is_valid(self, empty, num):
         row, col = empty
         valid_in_row = self.valid_in_row(row, num)
 
+# Step 55
 
+# Check if the number is valid for insertion in the specified column by calling self.valid_in_col(col, num)
+
+# Assign the result to valid_in_col.
+
+    def is_valid(self, empty, num):
+        row, col = empty
+        valid_in_row = self.valid_in_row(row, num)
+        valid_in_col = self.valid_in_col(col, num)
 
 
 
