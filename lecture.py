@@ -462,6 +462,20 @@ def valid_in_col(self, col, num):
 def valid_in_col(self, col, num):
     self.board[row][col] != num
 
+# Step 42
+
+# This expression generates a list of boolean values representing whether the condition 
+# self.board[row][col] != num is True or False for each element in the specified column across all rows.
+
+# Pass this generator expression to the all() function to check if all the elements in the column are different 
+# from num.
+
+# Recall that the syntax of the all function is as follows:
+
+all(
+    self.board[row][col] != num
+    for row in range(9)
+    )
 
 
 
