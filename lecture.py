@@ -657,7 +657,18 @@ def is_valid(self, empty, num):
 def solver(self):
         pass
 
+# Step 60 Passed
 
+# First, check if there are any empty cells left in the sudoku board.
+
+# Use the find_empty_cell function call on self.
+
+# Also, use the walrus operator (:=) to assign the result of self.find_empty_cell() to the variable next_empty.
+
+# By using the walrus operator, you can combine the assignment and the conditional check into a single line, making the code more concise and readable.
+
+def solver(self):
+    (next_empty := self.find_empty_cell())
 
 
 
