@@ -271,7 +271,17 @@ def __str__(self):
                 if index % 3 == 2:
                     board_string += f'╠═══{"╪═══"*2}{"╬═══"}{"╪═══"*2}{"╬═══"}{"╪═══"*2}╣\n'
 
+# Step 25
 
+# Now, to handle other rows, if the inner condition is False, meaning the current row is not the last row of a 
+# 3x3 square, append the middle_lines string to board_string. Include this in an else block.
+
+# Recall that middle_lines represents the middle borders of the sudoku board and includes horizontal separators.
+
+                if index % 3 == 2:
+                    board_string += f'╠═══{"╪═══"*2}{"╬═══"}{"╪═══"*2}{"╬═══"}{"╪═══"*2}╣\n'
+                else:
+                    board_string += middle_lines
 
 
 
