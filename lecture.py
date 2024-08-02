@@ -195,7 +195,17 @@ def __str__(self):
                 row_square = '|'.join(str(item) for item in part)
                 row_list.extend(row_square)
 
+# Step 17
 
+# Within the innermost loop, create an if statement to check if the current segment (square_no) is not the 
+# last one (i.e., not equal to 3)
+
+# Step 18
+
+# Inside the if block, append a ║ character at the end of row_list.
+
+                if square_no != 3:
+                    row_list.append('║')
 
 
 
