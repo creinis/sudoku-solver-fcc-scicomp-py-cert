@@ -575,6 +575,29 @@ def valid_in_square(self, row, col, num):
                     return False
         return True
 
+# Step 52
+
+# Within the Board class, create another method is_valid. It would take three parameters:
+
+#    self (representing the instance of the class),
+#    empty (a tuple representing the row and column indices of an empty cell)
+#   num (representing the number to be checked).
+
+#This method checks if a given number is a valid choice for an empty cell in the sudoku board by validating its compatibility with the row, column, and 3x3 square of the specified empty cell.
+
+def is_valid(self, empty, num):
+    pass
+
+# Step 53
+
+# Inside the method, unpack the empty tuple into row and col.
+
+    def is_valid(self, empty, num):
+        row, col = empty
+
+
+
+
 
 
 
