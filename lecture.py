@@ -678,7 +678,13 @@ def solver(self):
     if (next_empty := self.find_empty_cell()) is None:
         pass
 
+# Step 62
 
+# If there are no empty cells (i.e., next_empty is None), the puzzle is solved. So, return True.
+
+def solver(self):
+    if (next_empty := self.find_empty_cell()) is None:
+        return True
 
 
 
