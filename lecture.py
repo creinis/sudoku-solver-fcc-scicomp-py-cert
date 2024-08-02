@@ -615,6 +615,20 @@ def is_valid(self, empty, num):
         valid_in_row = self.valid_in_row(row, num)
         valid_in_col = self.valid_in_col(col, num)
 
+# Step 56
+
+# Check if the number is valid for insertion in the 3x3 square that contains the specified cell by calling 
+# self.valid_in_square(row, col, num).
+
+# Assign the result to valid_in_square.
+
+    def is_valid(self, empty, num):
+        row, col = empty
+        valid_in_row = self.valid_in_row(row, num)
+        valid_in_col = self.valid_in_col(col, num)
+        valid_in_square = self.valid_in_square(row, col, num)
+
+
 
 
 
