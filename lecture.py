@@ -183,7 +183,17 @@ def __str__(self):
                 for square_no, part in enumerate([line[:3], line[3:6], line[6:]], start=1):
                     '|'.join(str(item) for item in part)
 
+# Step 15
 
+# Assign the joined string to the variable row_square.
+
+# Step 16
+
+# Extend the row_list with the elements of the row_square string.
+
+            for square_no, part in enumerate([line[:3], line[3:6], line[6:]], start=1):
+                row_square = '|'.join(str(item) for item in part)
+                row_list.extend(row_square)
 
 
 
