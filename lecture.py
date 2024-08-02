@@ -427,7 +427,21 @@ def valid_in_row(self, row, num):
 def valid_in_row(self, row, num):
     return num not in self.board[row]
 
+# Step 39
 
+# Next, you will create a method that checks if a number can be inserted in a specified column of the 
+# sudoku board by checking if the number is not already present in that column for any row.
+
+# For that, within the Board class, create a method named valid_in_col.
+
+# It should take three parameters:
+
+#    self: representing the instance of the class.
+#    col: representing the column index.
+#    num: representing the number to be checked.
+
+def valid_in_col(self, col, num):
+    pass
 
 
 
