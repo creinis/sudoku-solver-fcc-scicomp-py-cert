@@ -503,6 +503,28 @@ def valid_in_col(self, col, num):
 def valid_in_square(self, row, col, num):
     pass
 
+# Step 45
+
+# Now you need to calculate the starting row index for the 3x3 block in the board grid.
+
+# For that, ensure that the starting row index for each 3x3 block is a multiple of 3.
+
+# This can be achieved by this mathematical operation: (row // 3) * 3. 
+# Assign the result of this calculation to row_start.
+
+# Step 46
+
+# Next, you need to calculate the starting column index for the 3x3 block in the board grid.
+
+# For that, ensure that the starting row index for each 3x3 block is a multiple of 3.
+
+# Similar to the previous step, this can be achieved by this mathematical operation: (col // 3) * 3. 
+# Assign the result of this calculation to col_start.
+
+def valid_in_square(self, row, col, num):
+        row_start = (row // 3) * 3
+        col_start = (col // 3) * 3
+
 
 
 
