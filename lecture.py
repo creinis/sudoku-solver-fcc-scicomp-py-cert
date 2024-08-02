@@ -170,6 +170,18 @@ def __str__(self):
             row_list = []
             for square_no, part in enumerate([line[:3], line[3:6], line[6:]], start = 1):
 
+# Step 14
+
+# Now, you would join the elements of the segment (part) with the pipe character (|).
+
+# For that, first, use a for loop for item in part to access all elements.
+
+# Then, use the join() method on the | character to join the elements of the segment (part).
+
+# After that, convert each element to a string using str(item).
+
+                for square_no, part in enumerate([line[:3], line[3:6], line[6:]], start=1):
+                    '|'.join(str(item) for item in part)
 
 
 
